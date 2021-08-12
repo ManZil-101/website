@@ -1,0 +1,72 @@
+::selection {
+    color: #fff;
+    background: #1cc7d0;
+}
+
+.wrapper1 {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    flex-wrap: nowrap;
+    display: flex;
+    height: 400px;
+    width: 380px;
+    margin-bottom: 60px;
+    background: ghostwhite;
+    border-radius: 10px;
+}
+
+.wrapper1 .card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.wrapper1 .back-face {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.wrapper1 .back-face img {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 50%;
+    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+}
+
+.wrapper1 .back-face .info_33 {
+    text-align: center;
+}
+
+.back-face .info .title_33 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.back-face ul {
+    display: flex;
+}
+
+.back-face ul a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 0 5px;
+    line-height: 38px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+    transition: all 0.5s ease;
+}
+
+.back-face ul a:hover {
+    color: #1cc7d0;
+    border-color: #1cc7d0;
+    background: linear-gradient(375deg, transparent, transparent);
+}
